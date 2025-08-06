@@ -13,4 +13,4 @@ def demo():
 
 demo()
 
-print(a)
+print()
