@@ -8,4 +8,4 @@ elif age>30:
 elif age>18:
   print("You are now ready for taking decision")
 else:
-  print("You are a Teenager")  
+  print("You are a Teenager and uare going to behave like theis")  
