@@ -9,3 +9,9 @@ elif age>18:
   print("You are now ready for taking decision")
 else:
   print("You are a Teenager and uare going to behave like theis")  
+  print()
+   def()
+  {
+
+  }
+
