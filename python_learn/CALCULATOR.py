@@ -34,7 +34,7 @@ elif choice =="3":
   print("Please select the  given shapes currently only first two are available")
   print("1.Circle ")
   print("2.Square ")   
-  print("3.Triangle ")
+  print("3.Rectangle ")
   print("4.Cylinder ")
   print("5.Cone ")
   select = input("Enter your choice(like square) : ")
@@ -67,7 +67,22 @@ elif choice =="3":
     print(f"Now You have to Enter the two numbers to calculate Perimeter of {select} ")
     r = int(input("Enter radius : "))
     print(f"The area of circle is{2*3.14*r}")
-  
+
+if select == "rectangle":
+   print(f"You have Enter {select} so next you select what do you want to calculate : ")
+   print("1.Area ")
+   print("2.Perimeter ")
+   calculate = input("Enter your choice(like 1) : ")
+   if calculate == "1":
+    print(f"Now You have to Enter the two numbers to calculate Area of {select} ")
+    num1 = int(input("Enter lenght : "))
+    num2 = int(input("Enter breadth: ")) 
+    print(f"The area of circle is : {num1*num2}")
+   elif calculate == "2":
+    print(f"Now You have to Enter the two numbers to calculate Perimeter of {select} ")
+    num1 = int(input("Enter lenght : "))
+    num2 = int(input("Enter breadth: ")) 
+    print(f"The area of circle is{2*(num1+num2)}")  
    
 
 else:
