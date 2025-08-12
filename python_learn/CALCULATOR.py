@@ -25,7 +25,7 @@ if choice =="1":
 
 elif choice =="2":
   num = int(input("Enter the number to find the squareroot  : "))
-  print(f"The squareroot of given number is : { m.sqrt(num)}")
+  print(f"The squareroot of {num} is : { m.sqrt(num)}")
 
 elif choice =="3":
   print("Please select the  given shapes currently only first two are available")
@@ -42,14 +42,14 @@ elif choice =="3":
    print("2.Perimeter ")
    calculate = input("Enter your choice(like 1) : ")
    if calculate == "1":
-    print(f"Now You have to enter the two numbers to calculate Area of {choice} ")
-    num1 = int(input("Enter lenght : "))
+    print(f"Now You have to enter the SIDE of {choice} to calculate Area  ")
+    side = int(input("Enter SIDE : "))
     #num2 = int(input("Enter breadth: ")) 
-    print(f"The area of square is : {num1*num1}")
+    print(f"The area of square is : {side}")
    elif calculate == "2":
-    print(f"Now You have to enter the two numbers to calculate Perimeter of {choice} ")
-    num = int(input("Enter lenght : "))
-    print(f"The area of square is{4*num}")
+    print(f"Now You have to enter the SIDE of {choice} to calculate Perimeter ")
+    side = int(input("Enter lenght : "))
+    print(f"The area of square is{4*side}")
  
   elif choice == "circle":
    print(f"You have enter {choice} so next you select what do you want to calculate : ")
@@ -57,13 +57,13 @@ elif choice =="3":
    print("2.Perimeter ")
    calculate = input("Enter your choice(like 1) : ")
    if calculate == "1":
-    print(f"Now You have to enter the two numbers to calculate Area of {choice} ")
+    print(f"Now You have to enter the radius to calculate Area of {choice} ")
     r = int(input("Enter radius : "))
     print(f"The area of circle is : {3.14*r*r}")
    elif calculate == "2":
-    print(f"Now You have to enter the two numbers to calculate Perimeter of {choice} ")
+    print(f"Now You have to enter the radius to calculate Perimeter of {choice} ")
     r = int(input("Enter radius : "))
-    print(f"The area of circle is{2*3.14*r}")
+    print(f"The area of {choice} is{2*3.14*r}")
 
   elif choice == "rectangle":
    print(f"You have enter {choice} so next you select what do you want to calculate : ")
@@ -71,15 +71,15 @@ elif choice =="3":
    print("2.Perimeter ")
    calculate = input("Enter your choice(like 1) : ")
    if calculate == "1":
-    print(f"Now You have to enter the two numbers to calculate Area of {choice} ")
+    print(f"Now You have to enter the lenght and breadth to calculate Area of {choice} ")
     num1 = int(input("Enter lenght : "))
     num2 = int(input("Enter breadth: ")) 
-    print(f"The area of circle is : {num1*num2}")
+    print(f"The area of {choice} is : {num1*num2}")
    elif calculate == "2":
-    print(f"Now You have to enter the two numbers to calculate Perimeter of {choice} ")
+    print(f"Now You have to enter the lenght and breadth to calculate Perimeter of {choice} ")
     num1 = int(input("Enter lenght : "))
     num2 = int(input("Enter breadth: ")) 
-    print(f"The area of circle is{2*(num1+num2)}")  
+    print(f"The area of {choice} is{2*(num1+num2)}")  
    
 
 else:
