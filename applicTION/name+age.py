@@ -1,0 +1,5 @@
+print('Print your name & age')
+name_1 = input('Enter your name')
+age_1 = int(input('Enter your age'))
+print('Show name & age')
+print('Your name is '+(name_1)+ ' and age is',age_1)

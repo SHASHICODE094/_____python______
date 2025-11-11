@@ -1,0 +1,7 @@
+n = input('Enter anything')
+print('You Enter ',n)
+print(type(n))
+print(n.upper())
+print(n.lower())
+print(n.isupper())
+print(n.islower())
