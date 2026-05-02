@@ -9,8 +9,9 @@
 # print(reverse_text)
 
 # using loop---------
-text= "This is my python"
-res = " "
-for char in text:
-    res = char+res
-print(res)
+# text= "This is my python"
+# res = " "
+# for char in text:
+#     res = char+res
+# print(res)
+print("This is not function ")
