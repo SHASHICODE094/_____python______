@@ -12,7 +12,7 @@ for i in option:
      value= input("Enter  the value in string (not in number)").strip()
      if not value:
        print("Your input value is not fill, Fill the answer")
-       print("Your answer :",value)
+    #    print("Your answer :",value)
      elif value!=answer:
        print("->You have  entered the wrong answer.Enter  the right answer")
        score=score-1
